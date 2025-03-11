@@ -1,13 +1,13 @@
 [package]
 name = "Koban"
 edition = "2024.beta"
-published-at = "0x7b148e0fd4170eea84566ae1fb720a6ced17abbba4283e20f7fdad9cc8342760"
+published-at = ""
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
 
 [addresses]
-koban = "0x7b148e0fd4170eea84566ae1fb720a6ced17abbba4283e20f7fdad9cc8342760"
+koban = "0x0"
 
 [dev-dependencies]
 
